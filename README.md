@@ -139,6 +139,12 @@ ScraperAPI makes the most sense as a SerpAPI replacement in a few specific scena
 
 ---
 
+## Other Options Worth Testing
+
+If you're building AI agents or LLM pipelines rather than SEO rank tracking, [Firecrawl](https://www.firecrawl.dev/?utm_source=scraperapi-serpapi-comparison&utm_medium=integration) is worth testing as another option. Its [search API](https://docs.firecrawl.dev/features/search?utm_source=scraperapi-serpapi-comparison&utm_medium=integration) returns titles, URLs, and snippets for web, news, and image results, and the `scrapeOptions` parameter adds the full page as markdown for each result in the same call. The free plan includes 1,000 credits a month (about 500 searches at the base rate, no credit card required), and the $19/month Hobby plan covers 2,500 searches. Paid plans work out to roughly $1.50 to $7.60 per 1,000 searches, depending on the tier. It's a general web search API rather than a multi-engine SERP product, so if you need structured Google SERP features or other search engines, a dedicated SERP API is the better fit.
+
+---
+
 ## The Free Trial and Getting Started
 
 ScraperAPI doesn't have a permanent free tier (they have a standing 1,000 credit/month free plan for very light use), but new signups get **5,000 free API credits for the first 7 days** — enough to run real tests against your actual target pages and measure success rates before committing to a paid plan.
